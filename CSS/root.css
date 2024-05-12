@@ -1,0 +1,46 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --gray50: #f5f5f5;
+  --gray100: #eee;
+  --gray200: #dedede;
+  --gray500: #757575;
+  --gray700: #4e4e4e;
+  --gray900: #1f1f1f;
+  --pink500: #ff5160;
+  --pink600: #db3b57;
+
+  /* padding */
+  --padding--button: 14px 16px;
+  /* border-radius */
+  --borderRadius--medium: 20px;
+
+  /* font */
+  --font--size--mega: 64px;
+  --font--size--large: 32px;
+  --font--size--medium: 28px;
+  --font--size--big: 40px;
+  --font--size--small: 24px;
+
+  /* max-width */
+  --maxwidth--desktop: 1000px;
+  --maxwidth--table: 628px;
+  --maxwidth--mobile: 500px;
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* body의 모든 글씨를 Pretendard-Regular 로 설정 */
+body {
+  font-family: "Pretendard-Regular";
+
+  /* 글의 줄바꿈CSS: keep-all(줄바꿈 하지마라) */
+  word-break: keep-all;
+  /* 글 사이의 간격 */
+  letter-spacing: -0.3px;
+}
